@@ -1,0 +1,58 @@
+@import "../../global.css";
+
+.hotel-title {
+  font-family: "Main Bold", sans-serif;
+  font-size: 18px;
+}
+
+.hotel-price {
+  font-family: "Main Regular", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: gray;
+}
+
+.important {
+  font-family: "Main Regular", sans-serif;
+  color: red;
+  font-size: 14px;
+}
+
+.vote-choice-title {
+  font-family: "Main Regular", sans-serif;
+  margin-left: 5px;
+}
+
+.text {
+  font-family: "Main Regular", sans-serif;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  border-radius: 4px;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #e7e7e7;
+}
+
+.modal-topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title {
+  font-family: "Main Bold", sans-serif;
+  font-size: 1.25rem;
+  margin-block: 0px;
+}
+
+.modal-text {
+  font-family: "Main Regular", sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,55 @@
+const DATABASE_MODELS = {
+    CODE: "Code",
+    VOTE: "Vote",
+}
+
+const COLLECTIONS = {
+    CODES: "codes",
+    VOTES: "votes",
+}
+
+const DB_URI = "mongodb://127.0.0.1:27017/PROM";
+
+const PORT = 8083;
+
+const NODE_ENVIRONMENTS = {
+    DEVELOPMENT: "DEVELOPMENT",
+    PRODUCTION: "PRODUCTION",
+}
+
+const NODE_ENVIRONMENT = NODE_ENVIRONMENTS.PRODUCTION;
+
+const HTTP_STATUS_CODES = {
+    OK: 200,
+    BAD_REQUEST: 400,
+    UNAUTHORIZED: 401,
+    FORBIDDEN: 403,
+    NOT_FOUND: 404,
+    CONFLICT: 409,
+    INTERNAL_SERVER_ERROR: 500,
+}
+
+const ROOT_URL_API = `https://api.prom.uploy.app`;
+
+const APP_EMAIL = "support@uploy.app";
+
+const OPTIONS_IDS = {
+    "GRAND_HOTEL_SOFIA": "ghs",
+    "GRAND_HOTEL_MILLENNIUM": "ghm",
+    "SOFIA_HOTEL_BALKAN": "shb",
+    "HYATT_REGENCY_SOFIA": "hrs",
+    "HOTEL_MARINELA": "hm",
+}
+
+module.exports = {
+    DATABASE_MODELS: DATABASE_MODELS,
+    DB_URI: DB_URI,
+    COLLECTIONS: COLLECTIONS,
+    PORT: PORT,
+    NODE_ENVIRONMENT: NODE_ENVIRONMENT,
+    NODE_ENVIRONMENTS: NODE_ENVIRONMENTS,
+    HTTP_STATUS_CODES: HTTP_STATUS_CODES,
+    ROOT_URL_API: ROOT_URL_API,
+    APP_EMAIL: APP_EMAIL,
+    OPTIONS_IDS: OPTIONS_IDS,
+}
